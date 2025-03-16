@@ -113,3 +113,53 @@ function anagrammes(chaine1, chaine2) {
 
 console.log(anagrammes('fleurs', 'nuages'));
 console.log(anagrammes('listen', 'silent'));
+
+//L’exercice ici vas être d’analyser un algorithme. Je te fournis du code, et je voudrais que tu essaye 
+// de deviner ce qui vas être écris dans la console sans exécuter le code . 
+let compteur = 2;
+for (let i = 1; i <= 8; i++) {
+    console.log(`Valeur actuelle : ${compteur}`);
+    compteur *= 2;
+}
+/*Attendu dans la console 
+Valeur actuelle : 2
+Valeur actuelle : 4
+Valeur actuelle : 8
+Valeur actuelle : 16
+Valeur actuelle : 32
+Valeur actuelle : 64
+Valeur actuelle : 128
+Valeur actuelle : 256
+
+
+*/
+ //Exo 2
+
+for (let i = 1; i <= 7; i++) {
+    let ligne = "";
+    for (let j = 1; j <= i; j++) {
+        ligne += j * i + " ";
+    }
+    console.log(ligne.trim());
+}
+/* Attendu dans la console
+1
+2 4
+3 6 9
+4 8 12 16
+5 10 15 20 25
+6 12 18 24 30 36
+7 14 21 28 35 42 49
+
+*/
+ for(let i = 1; i <=12; i++){
+    let ligne ="";
+    for(let j = 1; j<=12; j++){
+        ligne += `${i} x ${j} = ${i*j +" "}\n`;
+        
+    }
+    console.log(`table de multiplication par ${i}`)
+    console.log(ligne.trim())
+    console.log("-".repeat(20))
+ }
+
