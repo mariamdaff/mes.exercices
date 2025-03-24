@@ -64,7 +64,6 @@ let numbers2 = [38, 103, 2, 29, 2, 57];
     }
  }
    return plusGrandNombre;
-
 }
 
  let numbers3 = [12, 45, 67, 89, 34];
@@ -127,26 +126,13 @@ console.log(afficheSiPalindrome('radar'));
 console.log(afficheSiPalindrome('bonjour'));
 
 //Ecris fonction  `supprimerDoublon(chaine)`  qui supprime les doublons d'un tableau
-    
+     //@TODO le faire avec des boucles
 function supprimerDoublon(chaine){
     let tableauSansDoublon =  [...new Set(chaine)];
    return tableauSansDoublon
 }
 let array = [1, 2, 2, 3, 4, 4, 5];
 console.log(supprimerDoublon(array));
-
- //@TODO le faire avec des boucles
-
-//  function supprimerDoublonBoucle(chaine){
-//     let tableauSansDoublon = [];
-
-//     for(let i = 0; i < tableauSansDoublon.length; i++){
-//         if()
-//     }
-    
-// }
-// let array2 = [1, 2, 2, 3, 4, 4, 5, 5, 6, 7, 7];
-// console.log(supprimerDoublonBoucle(array));
 
 //Ecris fonction  anagrammes(chaine1, chaine2)  qui vérifie si deux chaînes sont des anagrammes
 function anagrammes(chaine1, chaine2) {
