@@ -137,16 +137,16 @@ console.log(supprimerDoublon(array));
 
  //@TODO le faire avec des boucles
 
-//  function supprimerDoublonBoucle(chaine){
-//     let tableauSansDoublon = [];
+ function supprimerDoublonBoucle(chaine){
+    let tableauSansDoublon = [];
 
-//     for(let i = 0; i < tableauSansDoublon.length; i++){
-//         if()
-//     }
+    for(let i = 0; i < tableauSansDoublon.length; i++){
+        if()
+    }
     
-// }
-// let array2 = [1, 2, 2, 3, 4, 4, 5, 5, 6, 7, 7];
-// console.log(supprimerDoublonBoucle(array));
+}
+let array2 = [1, 2, 2, 3, 4, 4, 5, 5, 6, 7, 7];
+console.log(supprimerDoublonBoucle(array));
 
 //Ecris fonction  anagrammes(chaine1, chaine2)  qui vérifie si deux chaînes sont des anagrammes
 function anagrammes(chaine1, chaine2) {
