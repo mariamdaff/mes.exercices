@@ -1,11 +1,11 @@
 // //Ecris une fonction compter(n) qui contiens une boucle qui afficher les nombres de 1 à n
-function compter(n){
-    for(let i = 1; i <= n; i++){
-        console.log(i)
-    }
-  //@TODO J'arrive pas à utiliser return   
-}
-compter(5);
+// function compter(n){
+//     for(let i = 1; i <= n; i++){
+//         console.log(i)
+//     }
+//   //@TODO J'arrive pas à utiliser return   
+// }
+// compter(5);
 
 // //Ecris fonction  pair(chaine) qui contiens une boucle qui afficher les nombres pair de 1 à n (n étant passé en paramètre)
 function pair(n){

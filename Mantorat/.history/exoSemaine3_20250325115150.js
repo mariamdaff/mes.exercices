@@ -1,4 +1,4 @@
-// //Ecris une fonction compter(n) qui contiens une boucle qui afficher les nombres de 1 à n
+//Ecris une fonction compter(n) qui contiens une boucle qui afficher les nombres de 1 à n
 function compter(n){
     for(let i = 1; i <= n; i++){
         console.log(i)
@@ -7,7 +7,7 @@ function compter(n){
 }
 compter(5);
 
-// //Ecris fonction  pair(chaine) qui contiens une boucle qui afficher les nombres pair de 1 à n (n étant passé en paramètre)
+//Ecris fonction  pair(chaine) qui contiens une boucle qui afficher les nombres pair de 1 à n (n étant passé en paramètre)
 function pair(n){
     for(let j = 1; j <= n; j++){
         if(j % 2 === 0){
@@ -17,7 +17,7 @@ function pair(n){
 }
 pair(10);
 
-// // Ecris fonction  afficherTableau(array)  qui affiche tout le contenu d’un tableau passé en paramètre
+// Ecris fonction  afficherTableau(array)  qui affiche tout le contenu d’un tableau passé en paramètre
 
 function afficherTableau(array){
     for(let i= 0; i < array.length; i++){  //@ revoir cette histoire < et <=;
@@ -29,7 +29,7 @@ afficherTableau(fruits );
 let vehicules = ['Avion', 'Vélo', 'Train', 'Bateau'];
 afficherTableau(vehicules );
 
-// //Ecris fonction  compterVoyelles(chaine)  qui compte les voyelles dans une chaîne
+//Ecris fonction  compterVoyelles(chaine)  qui compte les voyelles dans une chaîne
 function compterVoyelles(chaine) {
     let nombreDeVoyelles = 0;
     const voyelles = ['a', 'e', 'i', 'o', 'u', 'y'];
@@ -45,7 +45,7 @@ function compterVoyelles(chaine) {
 
 console.log(compterVoyelles("Bonjour tout le monde"));
 
-// //Ecris fonction  plusGrand(array)  qui trouve le plus grand nombre dans un tableau
+//Ecris fonction  plusGrand(array)  qui trouve le plus grand nombre dans un tableau
 function plusGrand(array){
    let lePlusGrandNombre = Math.max(...array);
    return lePlusGrandNombre;
@@ -55,7 +55,7 @@ console.log(plusGrand(numbers));
 let numbers2 = [38, 103, 2, 29, 2, 57];
  console.log(plusGrand(numbers2));
 
-//  //Ecris fonction  plusGrand(array)  qui trouve le plus grand nombre dans un tableau avec une boucle
+ //Ecris fonction  plusGrand(array)  qui trouve le plus grand nombre dans un tableau avec une boucle
  function plusGrandAvecBoucle(array){
     let plusGrandNombre= array[0];
    for(let i = 0; i < array.length; i++){
@@ -72,8 +72,8 @@ console.log( "le plus grand nombre du tableau "+ plusGrandAvecBoucle(numbers3));
 let numbers4 = [38, 103, 2, 29, 2, 57];
  console.log( "le plus grand nombre du tableau "+ plusGrandAvecBoucle(numbers4));
 
-// //Ecris fonction  tri(chaine)  qui trie un tableau passé en paramètre par en ordre croissant et le retourne.
-// //  Puis utilise la fonction afficherTableau(array)pour 
+//Ecris fonction  tri(chaine)  qui trie un tableau passé en paramètre par en ordre croissant et le retourne.
+//  Puis utilise la fonction afficherTableau(array)pour 
 
 function tri(chaine){
     // chaine.sort((a, b) => a-b);
@@ -89,7 +89,7 @@ function tri(chaine){
 let unsorted = [5, 3, 8, 1, 2]
 tri(unsorted);
 
-// //Mthode avec boucle de la function tri
+//Mthode avec boucle de la function tri
 function triBoucle(chaine){
     chaine.sort((a, b) => a-b);
     afficherTableau(chaine)
@@ -99,13 +99,13 @@ function triBoucle(chaine){
 let unsorted2 = [5, 3, 8, 1, 2]
 triBoucle(unsorted2);
 
-// //Ecris fonction  inverser(chaine)  qui inverse une chaine de charactère
+//Ecris fonction  inverser(chaine)  qui inverse une chaine de charactère
 function  inverser(chaine) {
     return chaine.split(""). reverse(). join("");
 }
  console.log(inverser("JavaScript"));
 
-// //Ecris fonction  palindrome(chaine)  qui vérifie si un mot est un palindrome
+//Ecris fonction  palindrome(chaine)  qui vérifie si un mot est un palindrome
 function palindrome(chaine) {
 //    return inverser(chaine) ===chaine;
 let inverse = "";
@@ -163,11 +163,11 @@ function anagrammes(chaine1, chaine2) {
     }
 }
 
-console.log(anagrammes('fleurs', 'nuages'));
-console.log(anagrammes('listen', 'silent'));
+//console.log(anagrammes('fleurs', 'nuages'));
+//console.log(anagrammes('listen', 'silent'));
 
 //L’exercice ici vas être d’analyser un algorithme. Je te fournis du code, et je voudrais que tu essaye 
-//de deviner ce qui vas être écris dans la console sans exécuter le code . 
+// de deviner ce qui vas être écris dans la console sans exécuter le code . 
 let compteur = 2;
 for (let i = 1; i <= 8; i++) {
     console.log(`Valeur actuelle : ${compteur}`);
@@ -187,13 +187,13 @@ Valeur actuelle : 256
 */
  //Exo 2
 
-for (let i = 1; i <= 7; i++) {
-    let ligne = "";
-    for (let j = 1; j <= i; j++) {
-        ligne += j * i + " ";
-    }
-    console.log(ligne.trim());
-}
+// for (let i = 1; i <= 7; i++) {
+//     let ligne = "";
+//     for (let j = 1; j <= i; j++) {
+//         ligne += j * i + " ";
+//     }
+//     console.log(ligne.trim());
+// }
 /* Attendu dans la console
 1
 2 4
@@ -204,14 +204,14 @@ for (let i = 1; i <= 7; i++) {
 7 14 21 28 35 42 49
 
 */
- for(let i = 1; i <=3; i++){
-    let ligne ="";
-    for(let j = 1; j<=12; j++){
-        ligne += `${i} x ${j} = ${i*j +" "}\n`;
+//  for(let i = 1; i <=3; i++){
+//     let ligne ="";
+//     for(let j = 1; j<=12; j++){
+//         ligne += `${i} x ${j} = ${i*j +" "}\n`;
         
-    }
-    console.log(`table de multiplication par ${i}`)
-    console.log(ligne.trim())
-    console.log("-".repeat(20))
- }
+//     }
+//     console.log(`table de multiplication par ${i}`)
+//     console.log(ligne.trim())
+//     console.log("-".repeat(20))
+//  }
 
