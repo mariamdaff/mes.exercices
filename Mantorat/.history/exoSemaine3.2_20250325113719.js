@@ -130,9 +130,8 @@ function afficherTotal2(clients, commandes){
 for(let i = 0; i < clients.length; i++){
   nom = clients[i].prenom + " "+ clients[i].nom;
    result = afficherTotal(nom , commandes)
-   console.log(nom +" a commandé pour "+result+ "€ d'articles")
 }
-
+console.log(nom +" a commandé pour "+result+ " d'articles")
 
 }
 afficherTotal2(clients, commandes)

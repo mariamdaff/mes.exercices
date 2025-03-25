@@ -124,14 +124,7 @@ for(let j = 0; j < commandeClt.length; j++){
 }
 console.log(afficherTotal("Fatoumata Kébé", commandes))
 
-function afficherTotal2(clients, commandes){
-  let nom;
-  let result;
-for(let i = 0; i < clients.length; i++){
-  nom = clients[i].prenom + " "+ clients[i].nom;
-   result = afficherTotal(nom , commandes)
-   console.log(nom +" a commandé pour "+result+ "€ d'articles")
-}
+function afficherTotal2(nom, commandes){
 
 
 }
