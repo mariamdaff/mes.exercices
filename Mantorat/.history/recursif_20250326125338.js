@@ -56,12 +56,6 @@ function trouverSommeMaximale(tableau){
     if (sumCourant > sumMax){
        sumMax = sumCourant
     }
-    if(sumCourant < 0){
-        sumCourant = 0;
-    }
 
   }
-  return sumMax;
 }
-const tableauInput2 = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
-console.log(trouverSommeMaximale(tableauInput2))

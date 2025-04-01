@@ -43,25 +43,6 @@ const cible = 9;
 trouverIndice(tableauInput, cible)
 
 function inverserChaine(chaine){
-  let chaineInverse = chaine.split("").reverse().join("");
-  console.log(chaineInverse)
+  console.log(chaine.reverse())
 }
 inverserChaine("hello")
-
-function trouverSommeMaximale(tableau){
-  let sumMax = [0];
-  let sumCourant = 0;
-  for(let i = 0; i < tableau.length; i++){
-    sumCourant += tableau[i];
-    if (sumCourant > sumMax){
-       sumMax = sumCourant
-    }
-    if(sumCourant < 0){
-        sumCourant = 0;
-    }
-
-  }
-  return sumMax;
-}
-const tableauInput2 = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
-console.log(trouverSommeMaximale(tableauInput2))
